@@ -18,7 +18,7 @@ keywords:    "Colorado, Virtual Machine, VM, CU CS VM, CU, CU CS"
 description: "CU CS Virtual Machine Info"
 source_link: "https://github.com/asayler/cu-cs-vm-site"
 favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
+touch_icon:  "img/touch.png"
 google_analytics_key: 
 baseurl: "/vm/"
 url: "https://foundation.cs.colorado.edu"
