@@ -4,25 +4,24 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [README.md, .gitignore]
 permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
 highlighter: pygments
 
-
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "CU CS VM"
+keywords:    "Colorado, Virtual Machine, VM, CU CS VM, CU, CU CS"
+description: "CU CS Virtual Machine Info"
+source_link: "https://github.com/asayler/cu-cs-vm-site"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
-
+google_analytics_key: 
+baseurl: "/vm/"
+url: "https://foundation.cs.colorado.edu"
 
 ### template colors, used site-wide via css ###
 colors:

@@ -1,8 +1,8 @@
 
-
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Design by [Tim O'Brien](http://t413.com/)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
+[SinglePaged Theme](https://github.com/t413/SinglePaged)
 &mdash;
-this site is [open source]({{ site.source_link }})
-
+Content by [Andy Sayler](https://www.andysayler.com)
+&mdash;
+Code on [github]({{ site.source_link }})
