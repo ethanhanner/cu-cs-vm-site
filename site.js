@@ -92,9 +92,13 @@ $(document).ready(function (){
 	});
 
     //external links open a new tab
-    $('a').filter(function() {
-        return this.hostname && (this.hostname !== location.hostname);
+    $("a").filter(function() {
+        // to ignore another file with the extension "file":
+        //      "a[href$='.torrent'], a[href$='.zip'], a[href$='.file']"
+        var isDownloadFile = $(this).is($("a[href$='.torrent'], a[href$='.zip']"));
+        return this.hostname && (this.hostname !== location.hostname) && !isDownloadFile;
     }).attr("target","_blank");
 
+    // $("a[href$='.torrent'], a[href$='.zip']").removeAttr("target");
 });
 
