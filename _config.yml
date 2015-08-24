@@ -27,8 +27,8 @@ url: "https://foundation.cs.colorado.edu"
 colors:
   black:     '#111111'
   white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#44D613'
-  purple:    '#c869bf'
-  orange:    '#fab125'
+  blue:      '#49b0f0'
+  green:     '#309050'
+  purple:    '#d070c0'
+  orange:    '#f0b030'
   turquoise: '#00C0C0'
