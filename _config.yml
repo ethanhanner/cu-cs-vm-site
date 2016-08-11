@@ -4,9 +4,10 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
+
 ### site serving configuration ###
 exclude: [README.md, .gitignore]
-permalink: / ## disables post output
+permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: redcarpet
