@@ -21,7 +21,7 @@ redcarpet:
 title:       "CU CS VM"
 keywords:    "Colorado, Virtual Machine, VM, CU CS VM, CU, CU CS"
 description: "CU CS Virtual Machine Info"
-source_link: "https://github.com/asayler/cu-cs-vm-site"
+source_link: "https://github.com/ethanhanner/cu-cs-vm-site"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/touch.png"
 google_analytics_key: "UA-38165152-2"
